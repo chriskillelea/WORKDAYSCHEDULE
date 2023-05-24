@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .display-3 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .lead {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .time-block {
+    align-items: center;
+    border-radius: 4px;
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  .hour {
+    font-weight: bold;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .description {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    flex: 1;
+    padding: 1rem;
+    resize: none;
+  }
+  
+  .saveBtn {
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+  }
+  
+  .saveBtn i {
+    font-size: 1.5rem;
+  }
+  
+  .past {
+    background-color: #d3d3d3;
+  }
+  
+  .present {
+    background-color: #ff6961;
+    color: #ffffff;
+  }
+  
+  .future {
+    background-color: #77dd77;
+    color: #ffffff;
+  }
+  
+  .container-fluid {
+    padding: 0 5px;
+  }
+  
+  @media (min-width: 576px) {
+    .hour {
+      padding: 1rem 0;
+    }
+  }
+  
+  body {
+    background-color: #f8f9fa;
+    font-family: 'Fira Sans', sans-serif;
+  }
+  
+  .lead {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .display-3 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
